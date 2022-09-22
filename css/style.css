@@ -9,9 +9,29 @@
     margin: 0 auto;
 }
 
+body    {
+    padding-top: 100px;
+}
+
 /* Header */
 
 .header_container   {
     background-color: antiquewhite;
-    height: 200px;
+    height: 100px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
+.first_section_container    {
+    background-color: aqua;
+    height: 80px;
+}
+
