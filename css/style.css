@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+.container  {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header_container   {
+    background-color: antiquewhite;
+    height: 200px;
+}
