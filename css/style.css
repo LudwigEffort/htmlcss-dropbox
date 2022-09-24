@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+i {
+    margin-right: 0.5rem;
+}
+
+
 /* Header */
 
 header  {
@@ -149,6 +154,8 @@ header  {
 }
 
 .cards_container    {
+    margin-top: 2rem;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -158,6 +165,7 @@ header  {
 
 .card_dim   {
     background-color: pink;
+    padding: 1rem;
     flex-basis: calc(100%/3);
     flex-grow: 1;
     flex-shrink: 1;
@@ -170,7 +178,7 @@ header  {
 }
 
 .radio_btn_container    {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 1rem;
 }
 
@@ -186,10 +194,22 @@ header  {
     list-style-type: none;
 }
 
-.card_sublist i {
-    margin-right: 0.5rem;
-}
-
 .card_button    {
     margin-top: 2rem;
+}
+
+/* First card */
+.first_card_container .plan_type {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.second_card_container .plan_type    {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.third_card_container .plan_type {
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
