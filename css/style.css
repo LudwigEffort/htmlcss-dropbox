@@ -21,6 +21,8 @@ body    {
     background-color: blue;
     color: white;
     padding: 0.5rem;
+
+    text-align: center;
 }
 
 img {
@@ -126,7 +128,7 @@ header  {
 .first_button   {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    margin-right: 5rem;
+    margin-right: 12rem;
 }
 
 .first_icon {
@@ -164,7 +166,10 @@ header  {
 
 
 .card_dim   {
-    background-color: pink;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+
     padding: 1rem;
     flex-basis: calc(100%/3);
     flex-grow: 1;
@@ -190,12 +195,36 @@ header  {
     margin-right: 2rem;
 }
 
+.card_sublist   {
+    margin-top: 2rem;
+}
+
 .card_sublist li    {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 .card_button    {
     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card_dim h3    {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.top_hr {
+    color: lightgrey;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.bottom_hr  {
+    color: lightgrey;
+    width: calc(100%/10);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* First card */
@@ -213,3 +242,90 @@ header  {
     text-align: center;
     margin-bottom: 0.5rem;
 }
+
+/* Bottom card container */
+
+.bottom_card_container   {
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+    
+    padding: 1rem;
+    margin-top: 2rem;
+
+    position: relative;
+    
+}
+
+.bottom_card_container .plan_type   {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.fourth_hr   {
+    color: lightgrey;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.bottom_card_container h3   {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bottom_card_container h4   {
+    margin-bottom: 2rem;
+}
+
+.bottom_card_container p    {
+    width: 80%;
+}
+
+.bottom_card_container .bottom_button   {
+    width: 25%;
+
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+}
+
+/* Second img */
+
+.first_section_img_container    {
+    margin-top: 5rem;
+
+    display: flex;
+}
+
+.second_img {
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.second_img_text {
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    padding: 3rem;
+}
+
+.second_img_text p  {
+    margin-top: 1rem;
+}
+
+.second_img_text span   {
+    background-color: white;
+    color: black;
+
+    margin-top: 1rem;
+    width: 60%;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+/* Second container */
