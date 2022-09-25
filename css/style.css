@@ -146,9 +146,7 @@ header  {
 
 /* Main */
 
-main    {
-    background-color: antiquewhite;
-}
+
 
 /* First section */
 
@@ -343,11 +341,10 @@ main    {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .six_img_cards_container  {
-    background-color: cyan;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -484,8 +481,83 @@ main    {
     background-color: #FFD830;
 }
 
+.under_div_container    {
+    background-color: #B4D0E7;
+    height: 250px;
+}
 
-/* .under_brands_container   {
-    background-color: lightgreen;
-    height: 20%;
-} */
+.under_brands_container   {
+    position: relative;
+}
+
+.under_brands_container h1  {
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-right: 20rem;
+}
+
+.under_brands_button    {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+}
+
+/* Fourth section */
+
+.fourth_section {
+    margin-bottom: 5rem;
+}
+
+.fourth_section h1  {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fourth_section p   {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 15rem;
+}
+
+/* Footer */
+
+footer  {
+    background-color: black;
+    color: white;
+}
+
+.footer_container {
+    padding-bottom: 2rem;
+}
+
+.footer_links   {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    gap: 2rem;
+}
+
+.footer_links_container {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer_links_container h2  {
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer hr   {
+    margin-bottom: 1rem;
+}
+
