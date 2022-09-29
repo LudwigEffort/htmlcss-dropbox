@@ -383,6 +383,7 @@ header  {
     flex-basis: calc(100%/3);
     flex-grow: 1;
     flex-shrink: 1;
+
 }
 
 .brand_logo {
@@ -405,6 +406,9 @@ header  {
     flex-basis: calc(100%/2);
     flex-grow: 1;
     flex-shrink: 1;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
 }
 
 .first_brand    {
@@ -461,7 +465,9 @@ header  {
     flex-basis: calc(100%/2);
     flex-grow: 1;
     flex-shrink: 1;
-    
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
 
 }
 
